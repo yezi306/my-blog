@@ -13,6 +13,7 @@ import { blogTheme } from './blog-theme'
 // 详见文档：https://vitepress.dev/reference/site-config
 export default defineConfig({
   // 继承博客主题(@sugarat/theme)
+  base:'/my-blog/',
   extends: blogTheme,
   // base,
   lang: 'zh-cn',
