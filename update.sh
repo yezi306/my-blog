@@ -13,7 +13,7 @@ cd docs/.vitepress/dist
 git init
 git add -A
 git commit -m "Updated version of git repositoryMap"
-git remote add origin https://gitee.com/hlm306/my-blog.git
+git remote add origin https://github.com/yezi306/yezi.github.io.git
 git push -f origin master:gh-pages
 
 # 返回上次所在的目录
