@@ -15,7 +15,6 @@ export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   base:'/my-blog/',
   extends: blogTheme,
-  // base,
   lang: 'zh-cn',
   title: '叶子微黄',
   description: '叶子微黄的博客主题，基于 vitepress 实现',
@@ -24,7 +23,7 @@ export default defineConfig({
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-    ['link', { rel: 'icon', href: '/logo.jpg' }]
+    ['link', { rel: 'icon', href: '/my-blog/favicon.ico' }]
   ],
   themeConfig: {
     // 展示 2,3 级标题在目录中
@@ -46,6 +45,7 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      { text: '文档', link: '/about' },
       { text: '关于作者', link: 'https://sugarat.top/aboutme.html' }
     ],
     socialLinks: [

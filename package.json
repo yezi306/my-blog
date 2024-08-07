@@ -7,13 +7,17 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "serve": "vitepress serve docs",
+    "push":"bash ./update.sh"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@sugarat/theme": "^0.3.4",
     "element-plus": "^2.7.2",
     "vue": "3.4.26"
+  },
+  "resolutions": {
+    "oh-my-live2d": "^0.17.0"
   },
   "directories": {
     "doc": "docs"
